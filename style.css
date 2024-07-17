@@ -40,9 +40,10 @@
     color: black;
     top: 30%;
     left: 50%;
-    font-size: 3em;
+    font-size: 4em;
     transform: translate(-50%, -50%);
     text-align: center;
+    white-space: nowrap;
 }
 
 .messageStyle {
@@ -82,11 +83,11 @@
         font-size: 8vh;
     }
     .bird {
-        width: 10vw;
+        width: 12vw;
         height: auto;
     }
     .pipe_sprite {
-        width: 12vw;
+        width: 8vw;
     }
 }
 
@@ -94,7 +95,7 @@
     .message {
         font-size: 2.5em;
         top: 50%;
-        white-space: nowrap;
+        white-space: normal; /* Allow text wrapping */
     }
     .score {
         font-size: 7vh;
@@ -104,7 +105,7 @@
         height: auto;
     }
     .pipe_sprite {
-        width: 15vw;
+        width: 10vw;
     }
 }
 
@@ -112,7 +113,7 @@
     .message {
         font-size: 2em;
         top: 50%;
-        white-space: nowrap;
+        white-space: normal; /* Allow text wrapping */
     }
     .score {
         font-size: 6vh;
@@ -122,6 +123,6 @@
         height: auto;
     }
     .pipe_sprite {
-        width: 20vw;
+        width: 12vw;
     }
 }
